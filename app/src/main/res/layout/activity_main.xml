@@ -32,6 +32,7 @@
         android:textSize="54sp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="-4dp"
+        android:onClick="equalsClick"
         />
 
     <TableLayout
@@ -58,7 +59,8 @@
                 android:backgroundTint="#55abca"
                 android:text="%"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="operationClick"/>
 
             <Button
                 android:id="@+id/squareRoot"
@@ -68,7 +70,8 @@
                 android:backgroundTint="#55abca"
                 android:text="√"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="operationClick"/>
 
             <Button
                 android:id="@+id/WTF"
@@ -78,7 +81,8 @@
                 android:backgroundTint="#55abca"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                tools:text="+/-" />
+                tools:text="+/-"
+                android:onClick="operationClick"/>
 
         </TableRow>
         <TableRow
@@ -95,7 +99,8 @@
                 android:backgroundTint="#88ff02"
                 android:text="7"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="numberClick"/>
 
             <Button
                 android:id="@+id/numberEight"
@@ -105,7 +110,8 @@
                 android:backgroundTint="#88ff02"
                 android:text="8"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="numberClick"/>
 
             <Button
                 android:id="@+id/numberNine"
@@ -115,7 +121,8 @@
                 android:backgroundTint="#88ff02"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                tools:text="9" />
+                tools:text="9"
+                android:onClick="numberClick"/>
 
             <Button
                 android:id="@+id/multiply"
@@ -125,7 +132,8 @@
                 android:backgroundTint="#36bcff"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"
-                tools:text="*" />
+                tools:text="*"
+                android:onClick="operationClick"/>
         </TableRow>
 
         <TableRow
@@ -143,7 +151,8 @@
                 android:text="4"
                 android:backgroundTint="#88ff02"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="numberClick"/>
 
             <Button
                 android:id="@+id/numberFive"
@@ -153,7 +162,8 @@
                 android:text="5"
                 android:backgroundTint="#88ff02"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="numberClick"/>
 
             <Button
                 android:id="@+id/numberSix"
@@ -163,7 +173,8 @@
                 android:text="6"
                 android:backgroundTint="#88ff02"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="numberClick"/>
 
             <Button
                 android:id="@+id/minus"
@@ -173,7 +184,8 @@
                 android:text="-"
                 android:backgroundTint="#d6075d"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="operationClick"/>
         </TableRow>
 
         <TableRow
@@ -190,7 +202,8 @@
                 android:text="1"
                 android:backgroundTint="#88ff02"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="numberClick"/>
 
             <Button
                 android:id="@+id/numberTwo"
@@ -200,7 +213,8 @@
                 android:text="2"
                 android:backgroundTint="#88ff02"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="numberClick"/>
 
             <Button
                 android:id="@+id/numberThree"
@@ -210,7 +224,8 @@
                 android:text="3"
                 android:backgroundTint="#88ff02"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="numberClick"/>
 
             <Button
                 android:id="@+id/numberFourth"
@@ -220,7 +235,8 @@
                 android:backgroundTint="#36bcff"
                 android:text="+"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="operationClick"/>
         </TableRow>
 
         <TableRow
@@ -235,7 +251,8 @@
                 android:text="C"
                 android:backgroundTint="#0054ff"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="operationClick"/>
 
             <Button
                 android:id="@+id/numberZero"
@@ -245,7 +262,8 @@
                 android:text="0"
                 android:textColor="#FFFFFF"
                 android:backgroundTint="#88ff02"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                android:onClick="numberClick"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -263,7 +281,8 @@
                 android:text="/"
                 android:backgroundTint="#d6075d"
                 android:textColor="#FFFFFF"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:onClick="operationClick"/>
         </TableRow>
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

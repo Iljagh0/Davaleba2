@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
             var secondNumber = resultTextView.text
             var sn = 0.0
             if(secondNumber.isNotEmpty()){
-//                sn = secondNumber.toDouble()
+                sn = secondNumber.toDouble()
             }
             when(operation){
                 "+" -> resultTextView.text = (firstOperator + sn).toString()
